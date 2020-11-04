@@ -20,7 +20,7 @@ cmd="lisp"
 
 passes=0
 total=0
-for file in **/*.txt; do
+for file in spec/**/*.txt; do
   total=$(($total+1))
   echo "[$file]"
   stdin=$(head -n 1 "$file")
