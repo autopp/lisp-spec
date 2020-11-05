@@ -1,0 +1,3 @@
+(not (quote (a . b)))
+0
+false

@@ -1,0 +1,3 @@
+(atom (quote foo))
+0
+true
